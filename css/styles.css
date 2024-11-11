@@ -98,7 +98,20 @@ header ul a {
 }
 
 .select-menu {
-    width: 400px;
+    width: auto;
     height: auto;
     background-color: #818080;
+}
+
+.consumption-products {
+    display: flex;
+}
+
+.all-products {
+    display: flex;
+}
+
+.products {
+    display: flex;
+    width: 100%;
 }

@@ -63,45 +63,75 @@
                     <img class="link-img" src="./img/stolovaya.png" alt="Dishes" width="40" height="40">
                     <a class="link-text" href="#">Столовые</a>
                 </li>
-             </ul>
+            </ul>
         </div>
     </header>
 
     <!-- MAIN -->
-    <main>
-        <div class="select-menu">
-            <h2>Добавление продукта</h2>
-
-            <div class="select-menu-value">
-                <strong>Тип продукта</strong>
-                <select class="form-select" aria-label="Default select">
-                    <option selected></option>
-                    <option value="1"></option>
-                    <option value="2"></option>
-                    <option value="3"></option>
-                </select>
-            </div>
-
-            <div class="select-menu-value">
-                <strong>Название продукта</strong>
-                <input class="form-control" type="text" placeholder="" aria-label="default input">
-            </div>
-
-            <div class="select-menu-value">
-                <strong>Название продукта</strong>
-                <input class="form-number" type="number" placeholder="" aria-label="default number">
-            </div>
-
-            <div>
-                <strong>Описание</strong>
-                <textarea name="" id=""></textarea>
-                <button type="button">Добавить продукт</button><br>
-                <button type="button">Редактировать</button><br>
-                <button type="button">Удалить продукт</button>
-            </div>
-
-        </div>
-    </main>
+    <div class="container">
+        <main>
+            <ul class="products">
+                <li>
+                    <strong>Все продукты</strong>
+                            <table class="table table-bordered border-primary">
+                                <tr>
+                                    <th>№</th>
+                                    <th>Название</th>
+                                    <th>Тип продукта</th>
+                                    <th>Цена</th>
+                                    <th>Количество</th>
+                                    <th>Общая сумма</th>
+                                    <th>Описание</th>
+                                    <th>Дата изменения</th>
+                                    <th>Автор</th>
+                                </tr>
+                                <tr>
+                                    <td>#</td>
+                                    <td>#</td>
+                                    <td>#</td>
+                                    <td>#</td>
+                                    <td>#</td>
+                                    <td>#</td>
+                                    <td>#</td>
+                                    <td>#</td>
+                                    <td>#</td>
+                                </tr>
+                            </table>
+                </li>
+                <li class="select-menu">
+                    <h2>Добавление продукта</h2>
+                    <div class="select-menu-value">
+                        <strong>Тип продукта</strong>
+                        <select class="form-select" aria-label="Default select">
+                            <option selected></option>
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                        </select>
+                    </div>
+        
+                    <div class="select-menu-value">
+                        <strong>Название продукта</strong>
+                        <input class="form-control" type="text" placeholder="" aria-label="default input">
+                    </div>
+        
+                    <div class="select-menu-value">
+                        <strong>Цена</strong>
+                        <input class="form-number" type="number" placeholder="" aria-label="default number">
+                    </div>
+        
+                    <div>
+                        <strong>Описание</strong>
+                        <textarea name="" id=""></textarea>
+                    </div>
+        
+                    <button type="button">Добавить продукт</button><br>
+                    <button type="button">Редактировать</button><br>
+                    <button type="button">Удалить продукт</button>
+                </li>
+            </ul>
+        </main>
+    </div>
 </div>
 
 </body>
