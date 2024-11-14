@@ -133,8 +133,38 @@ header ul a {
     justify-content: center;
 }
 
+
+/* CONSUMPTION-PRODUCTS */
 .consumption-products {
     display: flex;
+    margin-top: 10px;
+}
+
+.consumption-products-blocks {
+    width: 700px;
+}
+
+.consumption-products-blocks:not(:last-child) {
+    margin-right: 10px;
+}
+
+.consumption-products-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.consumption-products-heading-text {
+    margin-right: 10px;
+}
+
+.consumption-products-tables {
+    margin-top: 10px;
+}
+
+.consumption-products-button {
+    display: flex;
+    justify-content: center;
 }
 
 /* ALL-PRODUCTS */
