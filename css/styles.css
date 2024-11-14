@@ -40,7 +40,7 @@ body {
     margin-left: auto;
 }
 
-/* HEADER */
+/* SITE-HEADER */
 .header {
     display: flex;
     justify-content: space-around;
@@ -66,7 +66,7 @@ body {
 
 }
 
-/* NAV_BAR */
+/* SITE-HEADER-NAV_BAR */
 .nav-bar {
     margin: 0;
     padding: 20px;
@@ -101,6 +101,12 @@ header ul a {
     width: auto;
     height: auto;
     background-color: #818080;
+}
+
+/* PRODUCTS */
+.products-button {
+    width: 300px;
+    margin-top: 20px;
 }
 
 .consumption-products {
