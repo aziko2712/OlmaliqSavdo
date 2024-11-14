@@ -17,7 +17,7 @@ body {
     font-family: "Rubik", "Arial", sans-serif ;
     font-weight: 500;
     line-height: 22px;
-    background-color: #fff;
+    background-color: #bfb6b6;
     color: #4a4b4c;
 }
 
@@ -100,13 +100,37 @@ header ul a {
 .select-menu {
     width: auto;
     height: auto;
-    background-color: #818080;
 }
 
 /* PRODUCTS */
 .products-button {
     width: 300px;
     margin-top: 20px;
+}
+
+/* ARRIVAL-PRODUCTS */
+.mini-container {
+    width: 100%;
+    max-width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.arrival-products-select-menu-heading {
+    font-weight: bold;
+    text-align: center;
+}
+
+.arrival-products-textarea {
+    padding: 10px;
+}
+
+.arrival-products-button {
+    display: flex;
+    justify-content: center;
 }
 
 .consumption-products {
@@ -145,6 +169,7 @@ header ul a {
 
 /* ALL-PRODUCTS-MENU-SELECT */
 .select-menu-value {
+    padding: 10px;
     margin-bottom: 20px;
 }
 

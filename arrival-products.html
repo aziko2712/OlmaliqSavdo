@@ -34,76 +34,73 @@
         <ul class="nav-bar">
             <li class="nav-bar-list">
                 <img class="link-img" src="./img/glavnaya.png" alt="House" width="40" height="40">
-                <a class="link-text" href="index.html">Главная</a>
+                <a class="link-text" href="index.html" target="_blank">Главная</a>
             </li>
             <li class="nav-bar-list">
                 <img class="link-img" src="./img/produkti.png" alt="Basket" width="40" height="40">
-                <a class="link-text" href="products.html">Продукты</a>
+                <a class="link-text" href="products.html" target="_blank">Продукты</a>
             </li>
             <li class="nav-bar-list">
                 <img class="link-img" src="./img/prixod.png" alt="Cloud" width="40" height="40">
-                <a class="link-text" href="arrival-products.html">Приход</a>
+                <a class="link-text" href="arrival-products.html" target="_blank">Приход</a>
             </li>
             <li class="nav-bar-list">
                 <img class="link-img" src="./img/rasxod.png" alt="Cloud" width="40" height="40">
-                <a class="link-text" href="consumption-products.html">Расход</a>
+                <a class="link-text" href="consumption-products.html" target="_blank">Расход</a>
             </li>
             <li class="nav-bar-list">
                 <img class="link-img" src="./img/vse-tovari.png" alt="All products" width="40" height="40">
-                <a class="link-text" href="all-products.html">Все товары</a>
+                <a class="link-text" href="all-products.html" target="_blank">Все товары</a>
             </li>
             <li class="nav-bar-list">
                 <img class="link-img" src="./img/polzovateli.png" alt="Users" width="40" height="40">
-                <a class="link-text" href="#">Пользователи</a>
+                <a class="link-text" href="#" target="_blank">Пользователи</a>
             </li>
             <li class="nav-bar-list">
                 <img class="link-img" src="./img/tip-produkta.png" alt="Products mark" width="40" height="40">
-                <a class="link-text" href="#">Тип продукта</a>
+                <a class="link-text" href="#" target="_blank">Тип продукта</a>
             </li>
             <li class="nav-bar-list">
                 <img class="link-img" src="./img/stolovaya.png" alt="Dishes" width="40" height="40">
-                <a class="link-text" href="#">Столовые</a>
+                <a class="link-text" href="#" target="_blank">Столовые</a>
             </li>
         </ul>
     </div>
 </header>
 
 <main>
-    <div class="select-menu">
-        <h2>Добавление продукта</h2>
-
-        <div class="select-menu-value">
-            <strong>Тип продукта</strong>
-            <select class="form-select" aria-label="Default select">
-                <option selected></option>
-                <option value="1"></option>
-                <option value="2"></option>
-                <option value="3"></option>
-            </select>
+    <div class="mini-container">
+        <h5 class="arrival-products-select-menu-heading">Добавление продукта</h5>
+        <div class="select-menu">
+            <div class="select-menu-value">
+                <strong>Тип продукта</strong>
+                <select class="form-select" aria-label="Default select">
+                    <option selected></option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                </select>
+            </div>
+            <div class="select-menu-value">
+                <strong>Продукт</strong>
+                <input class="form-control" type="text" placeholder="" aria-label="default input">
+            </div>
+            <div class="select-menu-value">
+                <strong>Количество</strong>
+                <input class="form-number" type="number" placeholder="" aria-label="default number">
+            </div>
+            <div class="select-menu-value">
+                <strong>Цена (за шт)</strong>
+                <input class="form-number" type="number" placeholder="" aria-label="default number">
+            </div>
+            <div class="arrival-products-textarea">
+                <strong>Описание</strong><br>
+                <textarea rows="5" cols="58"></textarea>
+            </div>
         </div>
-
-        <div class="select-menu-value">
-            <strong>Продукт</strong>
-            <input class="form-control" type="text" placeholder="" aria-label="default input">
+        <div class="arrival-products-button">
+            <button class="btn btn-primary" type="button">Добавить</button>
         </div>
-
-        <div class="select-menu-value">
-            <strong>Количество</strong>
-            <input class="form-number" type="number" placeholder="" aria-label="default number">
-        </div>
-
-        <div class="select-menu-value">
-            <strong>Цена (за шт)</strong>
-            <input class="form-number" type="number" placeholder="" aria-label="default number">
-        </div>
-
-
-        <div>
-            <strong>Описание</strong>
-            <textarea name="" id=""></textarea>
-        </div>
-
-        <button type="button">Добавить</button>
     </div>
 </main>
 </div>
