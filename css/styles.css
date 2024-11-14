@@ -107,8 +107,46 @@ header ul a {
     display: flex;
 }
 
-.all-products {
+/* ALL-PRODUCTS */
+.all-products-main {
     display: flex;
+}
+
+/* ALL-PRODUCTS-TABLE */
+.all-products-tables {
+    width: 1100px;
+    margin-right: 10px;
+}
+
+.all-products-tables-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* ALL-PRODUCTS-MENU */
+.all-products-menu {
+    width: 300px;
+}
+
+.all-products-menu-header {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* ALL-PRODUCTS-MENU-SELECT */
+.select-menu-value {
+    margin-bottom: 20px;
+}
+
+/* ALL-PRODUCTS-MENU-BUTTON */
+.all-products-menu-button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
 }
 
 .products {
